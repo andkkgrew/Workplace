@@ -3,10 +3,11 @@
 
 int main() {
 	char vowels[5] = {'a', 'e', 'i', 'o', 'u'};
-	char str[100];
+	const int size = 256;
+	char str[size];
 	int i, j, count;
 	i = 0;
-	scanf("%s", str);
+	fgets(str, size, stdin);
 	count = 0;
 	
 	while (str[i] != '\0') {
