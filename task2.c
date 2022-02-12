@@ -5,6 +5,7 @@ int main() {
 	char vowels[5] = {'a', 'e', 'i', 'o', 'u'};
 	char str[100];
 	int i, j, count;
+	i = 0;
 	scanf("%s", str);
 	count = 0;
 	
